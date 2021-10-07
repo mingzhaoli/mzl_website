@@ -1,3 +1,11 @@
 html{
     font-family: 'Raleway', sans-serif;
 }
+
+.carousel-control-prev{
+    color: black;
+}
+
+.carousel-control-next{
+    color: black;
+}
