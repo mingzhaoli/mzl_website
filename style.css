@@ -1,11 +1,18 @@
 html{
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Crimson Text', serif;
 }
 
-.carousel-control-prev{
-    color: black;
+body{
+    background-color: black;
+    color: blanchedalmond;
 }
 
-.carousel-control-next{
-    color: black;
+a{
+    text-decoration: none;
+}
+
+.container-fluid{
+    height: 100vh;
 }
