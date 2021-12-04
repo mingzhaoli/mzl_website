@@ -1,18 +1,11 @@
 html{
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Rajdhani', sans-serif; */
     font-family: 'Crimson Text', serif;
 }
 
-body{
-    background-color: black;
-    color: blanchedalmond;
-}
-
-a{
-    text-decoration: none;
-}
-
 .container-fluid{
-    height: 100vh;
+    padding: 0;
+}
+
+.nav-link{
+    text-align: right;
 }
