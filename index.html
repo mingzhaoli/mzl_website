@@ -48,6 +48,7 @@
     <div class="container-fluid" id="home">
         <div class="row w-100">
 
+            <!-- First Column Information -->
             <div class="col-md-5" id="homeBrand">
 
                 <div class="rounded shadow-lg border border-3 border-dark mx-auto d-block mt-4 d-flex justify-content-center" id="imageBackground">
@@ -58,15 +59,49 @@
                     </div>
                 </div>
 
-                <div class="card border border-3 border-dark mt-5" id="education">
+                <div class="card border border-3 border-dark mt-5 ms-3" id="education">
                     <div class="card-body">
                         <h1 class="display-4">Education</h1>
                         <hr>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laudantium facilis consequatur vitae quisquam odio itaque quasi accusamus nobis consectetur molestiae, necessitatibus perspiciatis enim est eaque optio tempore modi quibusdam?</p>
                     </div>
                 </div>
+
+                <div class="card border border-3 border-dark mt-4 ms-3" id="contact">
+                    <div class="card-body">
+                        <h1 class="display-4">Contact Me</h1>
+                        <hr>
+                        <form>
+                            <div class="row">
+                                <div class="form-group">
+                                    <label for="senderEmailInput">Email Address</label>
+                                    <input type="text" class="form-control" id="senderEmailInput" placeholder="example@email.com">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group">
+                                    <label for="emailSubjectInput">Subject</label>
+                                    <input type="text" class="form-control" id="emailSubjectInput">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group">
+                                    <label for="emailContentInput">Message</label>
+                                    <textarea id="emailContentInput" class="form-control" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mt-3">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
 
+            <!-- Second Column Information -->
             <div class="col-md-7">
 
                 <div class="row" id="about">
@@ -149,9 +184,6 @@
                         <div class="card-body">
                             <h1 class="display-4">Skills</h1>
                             <hr>
-
-                            <h1 class="display-6">Languages</h1>
-                            <br>
 
                             <div class="row">
                                 <div class="col-md-2">
@@ -244,74 +276,6 @@
                                 </div>
                             </div>
 
-                            <h1 class="display-6">Concepts</h1>
-                            <br>
-
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <p>Data Structures</p>
-                                </div>
-                                <div class="col">
-                                    <div class="progress" style="height: 25px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                            70%
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <p>Algorithms</p>
-                                </div>
-                                <div class="col">
-                                    <div class="progress" style="height: 25px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                            70%
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <p>Artificial Intelligence</p>
-                                </div>
-                                <div class="col">
-                                    <div class="progress" style="height: 25px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                            40%
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <p>Robotic Algorithms</p>
-                                </div>
-                                <div class="col">
-                                    <div class="progress" style="height: 25px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                            40%
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <p>Operating Systems</p>
-                                </div>
-                                <div class="col">
-                                    <div class="progress" style="height: 25px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                                            30%
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
